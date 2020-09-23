@@ -69,7 +69,7 @@ The demo website can be missing some features, clone and run the project to a fu
 This project was made using the follow technologies:
 
 * [Next.js](https://nextjs.org/)              
-* [Tailwind CSS](https://tailwindcss.com/)    
+* [Chakra UI](https://chakra-ui.com/)    
 * [Vercel](https://vercel.com/)    
 
 # :rocket: Features
