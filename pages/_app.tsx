@@ -1,17 +1,17 @@
 import React from 'react'
 import { AppProps } from 'next/app'
-import ThemeContainer from '../context/theme/ThemeContainer'
 import Head from 'next/head'
+import ThemeContainer from '../context/theme/ThemeContainer'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Interior Home Design</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700;800&display=swap"
           rel="stylesheet"
         ></link>
+        <title>Interior Home Design</title>
         <meta
           name="description"
           content="Interior home design project made using Next.js and Chakra UI"
