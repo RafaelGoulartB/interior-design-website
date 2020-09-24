@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from '../components/nav'
 
 const Home: React.FC = () => {
   return (
     <>
-      <p>Hello World</p>
+      <Nav />
     </>
   )
 }
