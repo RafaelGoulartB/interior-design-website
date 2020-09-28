@@ -8,7 +8,7 @@ interface MenuItem {
 const MenuItems: React.FC<MenuItem> = ({ children, link }) => (
   <Link
     href={link}
-    mt={{ base: 4, md: 0 }}
+    mt={[4, 4, 0, 0]}
     mr={'36px'}
     display="block"
     fontWeight="medium"
@@ -32,7 +32,7 @@ const Nav = props => {
       align="center"
       justify="space-between"
       wrap="wrap"
-      paddingX={{ base: '1.5em', xl: '15%' }}
+      paddingX={['1.5em', '1.5em', '1.5em', '15%']}
       paddingY="1.5em"
       bg="rgba(255,255,255,.8)"
       color="black"
@@ -50,7 +50,7 @@ const Nav = props => {
         </Heading>
       </Flex>
 
-      <Box display={{ sm: 'block', md: 'none' }} onClick={handleToggle}>
+      <Box display={['block', 'block', 'none', 'none']} onClick={handleToggle}>
         <svg
           fill="#FBA442"
           width="22px"
@@ -63,8 +63,15 @@ const Nav = props => {
       </Box>
 
       <Box
-        display={{ sm: show ? 'block' : 'none', md: 'flex' }}
-        width={{ sm: 'full', md: 'auto' }}
+        display={[
+          show ? 'block' : 'none',
+          show ? 'block' : 'none',
+          'flex',
+          'flex'
+        ]}
+        width={['full', 'full', 'auto', 'auto']}
+        marginTop={['20px', '20px', 'auto', 'auto']}
+        textAlign="center"
         alignItems="center"
       >
         <MenuItems>Home</MenuItems>
