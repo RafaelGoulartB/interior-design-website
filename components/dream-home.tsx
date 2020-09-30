@@ -1,5 +1,6 @@
 import React from 'react'
-import { Flex, Heading, Button, Image, Text } from '@chakra-ui/core'
+import { Flex, Heading, Image, Text } from '@chakra-ui/core'
+import Button from './button'
 
 const DreamHome: React.FC = () => {
   return (
@@ -85,9 +86,7 @@ const DreamHome: React.FC = () => {
           </Flex>
         </Flex>
       </Flex>
-      <Button variantColor="orange" color="white" textTransform="uppercase">
-        Consult online now
-      </Button>
+      <Button>Consult online now</Button>
     </Flex>
   )
 }
