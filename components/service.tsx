@@ -73,9 +73,7 @@ const Service: React.FC = () => {
             variantColor="white"
             backgroundColor="#fff"
             color="orange.500"
-            textTransform="uppercase"
             width="fit-content"
-            fontSize="xl"
           >
             Learn More
           </Button>
