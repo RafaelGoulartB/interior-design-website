@@ -3,6 +3,7 @@ import Nav from '../components/nav'
 import Header from '../components/header'
 import DreamHome from '../components/dream-home'
 import About from '../components/about'
+import Service from '../components/service'
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       <Header />
       <DreamHome />
       <About />
+      <Service />
     </>
   )
 }
