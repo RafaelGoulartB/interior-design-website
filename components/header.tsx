@@ -4,7 +4,6 @@ import { Flex, Grid, Heading } from '@chakra-ui/core'
 const Header: React.FC = () => {
   return (
     <Grid
-      as="main"
       backgroundImage="url(/header-bg.png)"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Heading, Flex, Link, Text, FlexProps } from '@chakra-ui/core'
+import Logo from './logo'
 
 interface MenuItem {
   link?: string
@@ -40,14 +41,7 @@ const Nav = props => {
       {...props}
     >
       <Flex align="center" mr={5}>
-        <Heading as="h1" size="lg" color="orange.500">
-          <Text display="inline" fontWeight="extrabold">
-            Interior
-          </Text>{' '}
-          <Text display="inline" fontWeight="medium">
-            Design
-          </Text>
-        </Heading>
+        <Logo />
       </Flex>
 
       <Box display={['block', 'block', 'none', 'none']} onClick={handleToggle}>
