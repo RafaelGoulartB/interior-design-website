@@ -6,6 +6,7 @@ import About from '../components/about'
 import Service from '../components/service'
 import Footer from '../components/footer'
 import OurProject from '../components/our-projects'
+import CreativeDirector from '../components/creative-director'
 import { Divider } from '@chakra-ui/core'
 
 const Home: React.FC = () => {
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
       <DreamHome />
       <About />
       <Service />
+      <CreativeDirector />
       <OurProject />
 
       <Divider mt="24" />
