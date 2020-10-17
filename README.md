@@ -18,7 +18,7 @@
   <img alt="" src="https://img.shields.io/github/repo-size/RafaelGoulartB/interior-design-website?color=03B0E8" />
 </p>
 
-> This a landing page website made for interior home designers made with next.js and tailwind.css.
+> This a landing page website made for interior home designers made with next.js and chakra ui.
 
 <p align="center">
     <a href="README.md">English</a>
@@ -62,7 +62,6 @@
 </p>
 
 # :eyes: Demo Website
-The demo website can be missing some features, clone and run the project to a full experience. <br>
 👉  demo: https://interior-design-website.vercel.app/
 
 # :computer: Technologies
